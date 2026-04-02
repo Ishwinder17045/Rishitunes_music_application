@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RishiTunes Login</title>
+  <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+  
+  <div class="login-container">
+    <h2>Log in to RishiTunes</h2>
+    <div class="social-login">
+      <button class="google-btn">
+        Continue with Google
+      </button>
+      <button class="facebook-btn">
+        Continue with Facebook
+      </button>
+      <button class="phone-number-btn">
+        Continue with phone number
+      </button>
+    </div>
+    <form action="login_process.php" method="POST">
+      <input type="text" name="username" placeholder="Email or username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Log In</button>
+    </form>
+    <p>Don't have an account?</p>
+    <a class="signupa" href="signup.html">Sign up for RishiTunes</a>
+  </div>
+</body>
+</html>
